@@ -47,10 +47,10 @@ Some of the methods listed are provided to you in the starter code. You should c
 #### Customer
 
 - `Customer#initialize`
-  - Customer should be initialized with a given name and family name, both strings (i.e., first and last name, like George Washington)"
+  <!-- - Customer should be initialized with a given name and family name, both strings (i.e., first and last name, like George Washington)" -->
 - `Customer#given_name`
-  - returns the customer's given name
-  - should be able to change after the customer is created
+  <!-- - returns the customer's given name
+  - should be able to change after the customer is created -->
 - `Customer#family_name`
   - returns the customer's family name
   - should be able to change after the customer is created
@@ -61,20 +61,20 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Restaurant
 
-- `Restaurant#initialize`
+<!-- - `Restaurant#initialize`
   - Restaurants should be initialized with a name, as a string
-- `Restaurant#name`
+- `Restaurant#name` -->
   - returns the restaurant's name
   - should not be able to change after the restaurant is created
 
 #### Review
 
 - `Review#initialize`
-  - Reviews should be initialized with a customer, restaurant, and a rating (a number)
-- `Review#rating`
-  - returns the rating for a restaurant.
-- `Review.all`
-  - returns all of the reviews
+  <!-- - Reviews should be initialized with a customer, restaurant, and a rating (a number) -->
+<!-- - `Review#rating`
+  - returns the rating for a restaurant. -->
+<!-- - `Review.all`
+  - returns all of the reviews -->
 
 ### Object Relationship Methods
 
@@ -82,7 +82,7 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 - `Review#customer`
   - returns the customer object for that review
-  - Once a review is created, should not be able to change the customer
+  <!-- - Once a review is created, should not be able to change the customer -->
 - `Review#restaurant`
   - returns the restaurant object for that given review
   - Once a review is created, should not be able to change the restaurant
